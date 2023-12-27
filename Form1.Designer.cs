@@ -45,7 +45,7 @@
             this.txtMatKhauMoi.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtMatKhauMoi.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhauMoi.Location = new System.Drawing.Point(164, 161);
-            this.txtMatKhauMoi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatKhauMoi.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhauMoi.Name = "txtMatKhauMoi";
             this.txtMatKhauMoi.Size = new System.Drawing.Size(459, 40);
             this.txtMatKhauMoi.TabIndex = 1;
@@ -57,7 +57,7 @@
             this.txtMatKhauCu.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtMatKhauCu.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhauCu.Location = new System.Drawing.Point(164, 100);
-            this.txtMatKhauCu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMatKhauCu.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhauCu.Name = "txtMatKhauCu";
             this.txtMatKhauCu.Size = new System.Drawing.Size(459, 38);
             this.txtMatKhauCu.TabIndex = 2;
@@ -69,7 +69,7 @@
             this.txtNhapLai.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.txtNhapLai.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNhapLai.Location = new System.Drawing.Point(164, 228);
-            this.txtNhapLai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNhapLai.Margin = new System.Windows.Forms.Padding(4);
             this.txtNhapLai.Name = "txtNhapLai";
             this.txtNhapLai.Size = new System.Drawing.Size(459, 38);
             this.txtNhapLai.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.button1.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Lavender;
             this.button1.Location = new System.Drawing.Point(164, 282);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 57);
             this.button1.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             this.pictureBox1.Image = global::frm.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(28, 32);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 105);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -111,7 +111,7 @@
             this.panel1.Controls.Add(this.txtMatKhauMoi);
             this.panel1.Controls.Add(this.txtNhapLai);
             this.panel1.Location = new System.Drawing.Point(71, 27);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(933, 448);
             this.panel1.TabIndex = 6;
@@ -122,12 +122,13 @@
             this.button3.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Lavender;
             this.button3.Location = new System.Drawing.Point(448, 282);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(176, 57);
             this.button3.TabIndex = 8;
             this.button3.Text = "Quay lại";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -147,7 +148,7 @@
             this.BackgroundImage = global::frm.Properties.Resources.images;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

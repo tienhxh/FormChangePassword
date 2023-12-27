@@ -90,5 +90,10 @@ namespace frm
                 txtNhapLai.ForeColor = Color.Silver;
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
